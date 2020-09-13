@@ -4,7 +4,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 
 //Redux
 import { connect } from "react-redux";
-import { editUserDetails } from "../redux/actions/userActions";
+import { editUserDetails } from "../../redux/actions/userActions";
 
 //MUI
 import Textfield from "@material-ui/core/Textfield";
@@ -16,7 +16,7 @@ import Button from "@material-ui/core/Button";
 
 //Icons
 import EditIcon from "@material-ui/icons/Edit";
-import MyButton from "../util/MyButton";
+import MyButton from "../../util/MyButton";
 
 const styles = (theme) => ({
   ...theme.spreadThis,

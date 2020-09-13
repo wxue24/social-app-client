@@ -12,7 +12,7 @@ import Paper from "@material-ui/core/Paper";
 
 //Redux
 import { connect } from "react-redux";
-import { logoutUser, uploadImage } from "../redux/actions/userActions";
+import { logoutUser, uploadImage } from "../../redux/actions/userActions";
 
 //Icons
 import LocationOn from "@material-ui/icons/LocationOn";
@@ -23,7 +23,7 @@ import KeyboardReturn from "@material-ui/icons/KeyboardReturn";
 
 //Components
 import EditDetails from "./EditDetails";
-import MyButton from "../util/MyButton";
+import MyButton from "../../util/MyButton";
 
 const styles = (theme) => ({
   paper: {
