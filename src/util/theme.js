@@ -4,7 +4,7 @@ export default {
       main: "#00bcd4",
     },
     secondary: {
-      main: "#ffc400",
+      main: "#FF0000",
     },
   },
   spreadThis: {
